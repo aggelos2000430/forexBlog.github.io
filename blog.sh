@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Create directory for the blog
+# Δημιουργία αποθετηρίου για το blog
 mkdir my_blog
 cd my_blog
 
-# Create index.html file with black background and title
+# δημιουργία του index.html αρχείου, με μαύρο background και άσπρα γράμματα
 cat <<EOF > index.html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Forex Trading for a living</title>
+    <title>Forex Trading for a living</title> 
     <style>
         body {
             background-color: black;
